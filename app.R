@@ -1,6 +1,7 @@
 library(tidyverse)
 library(leaflet)
 library(shiny)
+library(sf)
 
 alue_top <- read_rds("alue_top.RDS")
 puolueet <- unique(alue_top$puolue)
