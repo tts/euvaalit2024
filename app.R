@@ -20,8 +20,7 @@ shiny::shinyApp(
                   multiple = FALSE,
                   selected = "KOK"),
       tags$div(class="form-group shiny-input-container", 
-               HTML("<p>Tuija Sonkkila @ttso</p>
-                    <p><a href='https://github.com/tts/euvaalit2024'>Koodi</a></p>")),
+               HTML("<p><a href='https://github.com/tts/euvaalit2024'>Koodi</a></p>")),
       width = 3),
     
     mainPanel(
